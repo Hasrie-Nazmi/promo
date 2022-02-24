@@ -22,7 +22,7 @@ def about_us():
 
     lecturer = {'name' : 'Ms. Jehan', 'pic' : 'test-img.jpg'}
     #st.write(students[1]['name'])
-    st.image(image=Image.open('UOW.jpg'),width=500)
+    st.image(image=Image.open('UOW.jpg'),width=700)
     st.title("Hello! We Are Encanto!")
     st.write("We are students from UOW Malaysia KDU Glenmarie undertaking a subject called Global Social Responsibility")
 
