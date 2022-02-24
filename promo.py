@@ -41,11 +41,11 @@ def about_us():
     col2[0].image(image=Image.open(lecturer['pic']), width=175, caption='LECTURER')
     col2[0].write(lecturer['name'])
 
-def posters():
-    st.write("Poster 1")
-    st.write("Poster 2")
+# def posters():
+#     st.write("Poster 1")
+#     st.write("Poster 2")
 
-def event_details():
+def event_overview():
     d0 = date.today()
     #d0 = today.strftime("%d/%m/%Y")
     d1 = date(2022, 4, 8)
@@ -78,7 +78,7 @@ def stats(x,y):
 
 def main():
     sel_list = {
-        'Event Details' : event_details,
+        'Event Details' : event_overview,
         'Event Schedule' : event_schedule,
         'Our NGO' : ngo,
         'Did You Know?' : didyouknow,
