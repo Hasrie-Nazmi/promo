@@ -22,7 +22,7 @@ def about_us():
 
     lecturer = {'name' : 'Ms. Jehan', 'pic' : 'test-img.jpg'}
     #st.write(students[1]['name'])
-    st.image(image=Image.open('uow.png'),width=500)
+    st.image(image=Image.open('UOW.jpg'),width=500)
     st.title("Hello! We Are Encanto!")
     st.write("We are students from UOW Malaysia KDU Glenmarie undertaking a subject called Global Social Responsibility")
 
@@ -50,8 +50,11 @@ def event_overview():
     #d0 = today.strftime("%d/%m/%Y")
     d1 = date(2022, 4, 8)
     delta = d1 - d0
+    st.title('Event Name: ')
+    st.title('Event Date: 08/4/2022')
     st.title(str(f"{delta.days} days until the event!"))
     st.image(image=Image.open('event.jpg'))
+    st.title('Event Objective: ')
 
     st.title("The event will be conducted on zoom")
     st.title("Link: not ready")
