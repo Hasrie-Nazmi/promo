@@ -78,7 +78,7 @@ def stats(x,y):
 
 def main():
     sel_list = {
-        'Event Details' : event_overview,
+        'Event Overview' : event_overview,
         'Event Schedule' : event_schedule,
         'Our NGO' : ngo,
         'Did You Know?' : didyouknow,
