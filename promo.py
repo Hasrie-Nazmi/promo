@@ -50,7 +50,7 @@ def event_overview():
     #d0 = today.strftime("%d/%m/%Y")
     d1 = date(2022, 4, 8)
     delta = d1 - d0
-    st.title('Event Name: ')
+    st.title('Event Name: Hope4Paws')
     st.title('Event Date: 08/4/2022')
     st.title(str(f"{delta.days} days until the event!"))
     st.image(image=Image.open('event.jpg'))
